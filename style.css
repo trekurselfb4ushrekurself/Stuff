@@ -1,0 +1,60 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    background-color: #f6f4f1;
+    color: #3a3a3a;
+    margin: 0;
+}
+
+header {
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+header p {
+    font-size: 1.1rem;
+    color: #6d6a75;
+}
+
+.game-section {
+    padding: 40px 0;
+}
+
+canvas {
+    background-color: #eae7e1;
+    border: 3px solid #b08968;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 15px;
+    font-size: 1.2rem;
+}
+
+button#restartBtn {
+    margin-top: 20px;
+    padding: 10px 25px;
+    border: none;
+    background-color: #b08968;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button#restartBtn:hover {
+    background-color: #7f5539;
+}
+
+footer {
+    padding: 20px;
+    background-color: #eae7e1;
+    font-size: 0.9rem;
+}
